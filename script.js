@@ -108,3 +108,14 @@ const Menu = () => {
 
 const text = document.getElementById('content');
 ReactDOM.render(<WhichRobot />, text);
+
+
+/****
+ * TODO:
+ * 1. throttle img fetching till end of typing
+ * 2. REFACTOR a lot
+ * 3. fix menu cards sizes
+ * 4. cancel grow on main card
+ * 5. fix heading width (only creature changes)
+ * */ 
+
